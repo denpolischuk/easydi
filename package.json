@@ -1,6 +1,6 @@
 {
   "name": "@denpolischuk/easydi",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Simple and pretty dependency injection tool for TypeScript",
   "main": "index.js",
   "scripts": {
