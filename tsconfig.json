@@ -5,8 +5,8 @@
     "outDir": "./dist",
     "baseUrl": ".",
     "pretty": false,
-    "target": "es2020",
-    "module": "commonjs",
+    "target": "es6",
+    "module": "es6",
     "moduleResolution": "node",
 
     "declaration": true,

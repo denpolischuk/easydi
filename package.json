@@ -4,6 +4,7 @@
   "description": "Simple and pretty dependency injection tool for TypeScript",
   "main": "index.js",
   "scripts": {
+    "prebuild": "rm -R ./dist",
     "build": "yarn tsc -p .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
