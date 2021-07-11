@@ -1,0 +1,20 @@
+{
+  "include": ["src/**.ts"],
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "outDir": "./dist",
+    "baseUrl": ".",
+    "pretty": false,
+    "target": "es2020",
+    "module": "commonjs",
+    "moduleResolution": "node",
+
+    "declaration": true,
+    "declarationMap": false,
+    "sourceMap": true,
+    "inlineSources": false,
+    "inlineSourceMap": false,
+    "composite": false,
+    "noEmitOnError": true
+  }
+}
